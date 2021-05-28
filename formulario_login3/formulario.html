@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h2>Preencha os dados abaixo</h2>
+    </div>
+    <form action="">
+        <div class="container_conteudo">
+            <fieldset class="colune_dades_pessoal">
+                <legend>Detalhes de contato</legend>
+            
+                <div class="area_dades_pesspal">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="url">Url:</label>
+                        <input type="url" name="url id="url" required>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="colune_comentaries">
+                <legend>Comentários</legend>
+                <div>
+                    <label for="message" class="subtitle_area_menssage">Mensagem:</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            
+            <fieldset class="colune_remember_dades">
+                <legend>Lembrar de mim</legend>
+                <div class="area_remember_dades">
+                    <label>
+                        <input type="radio" name="option_remember_dades" id="Yes" checked>
+                        Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="option_remember_dades" id="Not">
+                        Não
+                    </label>
+                </div>   
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+
+        </div>
+    </form>
+</body>
+</html>

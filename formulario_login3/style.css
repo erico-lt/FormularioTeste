@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+body{
+    background: rgb(156, 153, 153);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    font-size: 1.04em;   
+    height: 100%;
+} 
+fieldset{
+    border: solid 1px rgba(128, 128, 128, 0.486);
+}
+h2{
+    text-align: center;    
+    color: rgb(0, 0, 0);   
+}
+.title{
+    border-radius: 10px;
+    width: 32%;
+    margin: 1% auto;
+    box-shadow: 0.1px 1px 1px 1px white;
+}
+form label{
+    display: block;
+    cursor: pointer;
+    margin: 0.5%;
+}  
+form legend{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+form input:focus, textarea:focus{
+    background: rgba(131, 231, 144, 0.733);
+}  
+.colune_dades_pessoal{
+    margin: 2% 2%;
+    padding: 10px;
+}
+.colune_dades_pessoal input{
+    width: 300px;
+    line-height: 1.45em;
+    border: solid 0.1px;
+}
+.colune_comentaries{
+    margin: 0 2%;
+    padding: 10px;
+}
+.colune_comentaries textarea{
+    width: 300px;    
+}
+.colune_remember_dades{
+    margin: 2% 2%;
+    padding: 10px;
+}
+.container_conteudo{
+    background: rgba(191, 219, 216, 0.678);
+    height: 700px;
+    width: 40%;
+    margin: 2% auto;
+    box-shadow: 0.1px 1px 1px 1px rgb(241, 221, 37);
+}
+button{
+    font-size: 1.2em;
+    padding: 2px 3px;
+    border: 0;
+    margin: 0 50%;
+}
