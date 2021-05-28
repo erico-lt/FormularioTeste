@@ -5,7 +5,7 @@
     list-style-type: none;
 }
 body{ 
-    background: #345bdd url(/formulario/imagens/fundo-1920.jpg) no-repeat center top;
+    background: #345bdd url( /formulario_login1/imagens/fundo-1920.jpg)no-repeat center top;
 }
 .areaFormulario label{
     display: block;
@@ -62,37 +62,3 @@ body{
     clear: both;
 }
 /* Fim Css Login */
-#page_principal{
-    background: #146ed4c5;
-}
-header{
-    width: 100%;
-    height: 150px;
-    background: rgb(255, 246, 246);    
-}
-.area_titulo h1{
-    font-size: 4em; 
-    text-align: center;
-    color: #0135e0;
-}
-.segundary_color{
-   color: rgb(34, 161, 29);
-}
-#container{
-    width: 750px;
-    border: solid 2px red;
-    margin: -150px 0 0 0;
-}
-#container .area_titulo_container{
-    color: rgb(5, 5, 5);
-    background: rgba(164, 113, 212, 0.425);
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-    font-size: 1.5em;
-    box-shadow: 1px 1px 5px 2px white;   
-    border-radius: 10px; 
-}
-.area_fotos-noticias img{
-
-}
